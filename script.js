@@ -36,9 +36,9 @@ function Result() {
     setTimeout(() => {
       
       if (parseInt(ageInput.value) > 18) {
-        resolve(`Welcome, ${nameInput.value} You can vote.`);
+        resolve(`Welcome, ${nameInput.value}. You can vote.`);
       } else {
-        reject(`Oh sorry ${nameInput.value} You aren't old enough.`);
+        reject(`Oh sorry ${nameInput.value}. You aren't old enough.`);
       }
     }, 4000);
   });
